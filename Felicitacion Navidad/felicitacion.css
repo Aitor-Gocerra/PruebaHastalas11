@@ -1,0 +1,44 @@
+body { 
+	font-family: 'Arial', sans-serif; 
+	background-color: #f2f2f2; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	height: 100vh; 
+	margin: 0; 
+	overflow: hidden; /* Evita el desplazamiento de la página */ 
+	position: relative; /* Necesario para posicionar los copos de nieve */ 
+}
+.fondo { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 50%; 
+	height: 50%; 
+	background-image: url('navidad.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	z-index: 0; /* Asegura que esté detrás de otros elementos */ 
+}
+.tarjeta {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.tarjeta h1 {
+    color: #4CAF50;
+}
+
+.tarjeta p {
+    color: #333333;
+    font-size: 18px;
+}
+
+.coponieve {
+    font-size: 58px;
+    color: #1E90FF;
+}
