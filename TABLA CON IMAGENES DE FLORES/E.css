@@ -1,0 +1,26 @@
+*{
+	background-color: rgb(173,216,230)
+}
+.tabla{
+	width: 80%;
+	margin: auto;
+	border: 1px solid black;
+	border-collapse:collapse;
+	background-color: rgb(245,245,220);
+}
+.tabla th, .tabla td{
+	border:1px solid black;
+	padding: 10px;
+	text-align: center;
+	background-color: rgb(245,245,220);
+}
+.texto{
+	background-color: rgb(210,180,140);
+}
+.imagen-celda img{
+	width: 100px; /*Ajusta el tamaño de la imagen*/
+	height: auto; /*Mantiene la proporcion de la imagen*/
+	display: block; /*Asegura que la imagen se comporte como bloque*/
+	margin: auto; /*Centra la imagen al centro de la celda*/
+}
+	
